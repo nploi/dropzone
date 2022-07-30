@@ -35,7 +35,7 @@ DropZone(
     onDragExit: () {
         print('drag exit');
     },
-    onDrop: (List<html.File> files) {
+    onDrop: (List<html.File>? files) {
         print('files dropped');
         print(files);
     },
